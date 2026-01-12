@@ -1,0 +1,5 @@
+pkg=samba
+version_orig=debian/4.22
+version_suffix=gl0+bp1592
+
+git_src -b "$version_orig" "https://salsa.debian.org/samba-team/samba.git"
